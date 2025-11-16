@@ -6,7 +6,7 @@ import openai
 
 # ---------------- CONFIG ----------------
 # Put your OpenAI API key here for local testing:
-OPENAI_API_KEY = "your-API"
+OPENAI_API_KEY = "your-api"
 # Choose OpenAI model (use a smaller/cheaper model for demos)
 # Examples: "gpt-4o-mini", "gpt-4o", "gpt-4o-mini-unstable", "gpt-3.5-turbo"
 OPENAI_MODEL = "gpt-4o-mini"

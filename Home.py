@@ -11,7 +11,7 @@ st.set_page_config(
 
 # --- Home Page Content ---
 
-st.title("🧠 Project AI Assistant, Detector, and Tracker")
+st.title("🧠 Project AI Assistant, Detector, Market Price and Weather Tracker")
 
 st.markdown(
     """
@@ -22,8 +22,8 @@ st.markdown(
     
     * **1. 🧠 AI Assistant:** A page dedicated to an LLM-powered assistant (via `api_handlers.py`).
     * **2. 🔍 Detector:** The image analysis page that uses your trained PyTorch model (via `model_inference.py`).
-    * **3. 📈 Market/Weather:** The data analysis page that displays local data and external API data 
-        (via `api_handlers.py`).
+    * **3. 🌤️ Weather:** The data analysis page that displays external API data (via `api_handlers.py`).
+    * **4. 📈 Market Price:** The data analysis page that displays local data (via `api_handlers.py`).
         
     """
 )
