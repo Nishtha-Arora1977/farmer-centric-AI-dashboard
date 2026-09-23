@@ -126,6 +126,4 @@ Add license as per your preference.
 
 Pull requests welcome. Please ensure model files are handled via LFS and tests pass.
 
-## Author
 
-Original repo by xAndaaz. Mirrored to Nishtha-Arora1977 for development.
