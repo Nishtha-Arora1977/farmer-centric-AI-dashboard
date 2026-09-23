@@ -1,0 +1,9 @@
+models/*
+data/*
+*.pth
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
