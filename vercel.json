@@ -1,10 +1,6 @@
 {
-  "installCommand": "pip install -r requirements-vercel.txt",
   "buildCommand": "",
-  "framework": null,
-  "functions": {
-    "api/**/*.py": {
-      "runtime": "python3.9"
-    }
-  }
+  "installCommand": "pip install -r requirements-vercel.txt",
+  "outputDirectory": "public",
+  "framework": null
 }
