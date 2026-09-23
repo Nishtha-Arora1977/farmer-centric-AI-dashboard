@@ -5,9 +5,8 @@ streamlit
 pandas
 requests
 
-# Hugging Face model support
-transformers
-sentencepiece  # Often required by tokenizers
+# AI / LLM support
+openai
 
 # Image model support
 timm
