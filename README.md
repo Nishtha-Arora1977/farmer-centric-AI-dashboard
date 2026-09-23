@@ -83,12 +83,27 @@ echo "[secrets]\nOPENAI_API_KEY = 'sk-...'" > .streamlit/secrets.toml
 
 ## Usage
 
-Run the Streamlit app:
+Run the Streamlit app locally:
 ```bash
 streamlit run Home.py
 ```
 
 Open the local URL shown in terminal, e.g., http://localhost:8501
+
+### Deploy on Streamlit Community Cloud
+
+1. Push this repo to GitHub
+2. Go to https://share.streamlit.io and connect your GitHub account
+3. Select `Nishtha-Arora1977/farmer-centric-AI-dashboard`
+4. Main file: `Home.py`
+5. Add secrets in the dashboard → Settings → Secrets using `.streamlit/secrets.toml.example` as template:
+   ```
+   OPENAI_API_KEY = "sk-..."
+   TOMORROW_API_KEY = "xxx"
+   ```
+6. Deploy. Git LFS is supported for the model file.
+
+**Note:** The model `models/EfficientNetV2-Small_best_model.pth` is tracked with Git LFS to keep the repo under GitHub limits.
 
 Navigate using the left sidebar:
 * **Home** – Project overview
